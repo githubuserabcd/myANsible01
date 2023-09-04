@@ -4,11 +4,16 @@
   tasks:
   - name: in this task , i want to install tree
     apt:
-      - name: tree
-        state: present
+       name: tree
+       state: present
 
-  - name: in this task , i wnat to install git
+  - name: in this task , i want to install git
     apt:
-      - name: git
-        state: present
-            
+       name: git
+       state: present
+      
+  - name: in this task, i want to install wget
+    apt:
+       name: wget
+       state: present
+       
